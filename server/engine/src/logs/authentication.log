@@ -1,5 +1,0 @@
-Failed registration: insert or update on table "users" violates foreign key constraint "fk_users_status" on Fri Jan 13 2023 16:13:42 GMT+0100 (West Africa Standard Time)
-Failed login: value too long for type character varying(20) on Fri Jan 13 2023 21:03:58 GMT+0100 (West Africa Standard Time)
-Failed login: value too long for type character varying(20) on Fri Jan 13 2023 21:12:16 GMT+0100 (West Africa Standard Time)
-Failed registration: column "ip_address" does not exist on Fri Jan 13 2023 21:36:37 GMT+0100 (West Africa Standard Time)
-Failed registration: column "ip_address" does not exist on Fri Jan 13 2023 21:36:49 GMT+0100 (West Africa Standard Time)

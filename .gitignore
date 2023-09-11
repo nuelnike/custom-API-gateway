@@ -1,8 +1,4 @@
 /node_modules
-/server/engine/node_modules
-/server/gateway/node_modules
-/server/microservices/nodejs/authentication/node_modules
-.env
 .env.backup
 .env.production
 /.fleet

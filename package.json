@@ -1,0 +1,45 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "API gateway for backend services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3",
+    "express-rate-limit": "^6.7.0",
+    "express-useragent": "^1.0.15",
+    "fs": "^0.0.1-security",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.27.0",
+    "ioredis": "^5.3.0",
+    "redis": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.14",
+    "@types/express-useragent": "^1.0.2",
+    "@types/morgan": "^1.9.3",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.11.14",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
