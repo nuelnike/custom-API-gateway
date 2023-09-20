@@ -1,5 +1,5 @@
 # About Gateway
-This is a custom designed backend API gateway that was created using express.js, a backend technology built with node.js.
+This is a custom designed backend API gateway that was created using express.js (node.js)
 This gateway is completely adaptable, making it simple to interface with any backend service regardless of the programming language or architecture. The gateway has the capacity to load balance client requests. 
 Additionally, the gateway can run on several instances, enabling you to allocate or dedicate a specific instance to any client of your choice, including desktop, mobile, and third-party clients.
 
