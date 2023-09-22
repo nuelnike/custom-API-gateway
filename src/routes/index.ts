@@ -3,6 +3,6 @@ const router = express.Router();
 
 //include individual rotues
 require('./authentication.ts')(router);
-require('./user-service.ts')(router);
+require('./sample_service.ts')(router);
 
 module.exports = router;

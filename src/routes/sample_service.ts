@@ -12,7 +12,7 @@ import {Decrypt} from '../bootstrap/security/index';
 import {GenerateReqSession} from '../helpers/mixins';
 
 module.exports = (router:any) => {
-    router.all("/user/:api_path", ValidateIP, ValidateSession, (req: Request, res: Response) => {
+    router.all("/change_to_service_path/:api_path", ValidateIP, ValidateSession, (req: Request, res: Response) => {
         
 
         try {
